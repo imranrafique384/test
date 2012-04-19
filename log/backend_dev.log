@@ -1,0 +1,1134 @@
+Jul 04 17:34:51 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:34:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:34:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:34:51 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:42:49 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:42:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:42:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:42:49 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:42:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:42:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:42:50 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:42:50 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_pagination.php"
+Jul 04 17:42:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:42:50 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:42:50 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:42:50 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:42:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:42:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Configuration 43.30 ms (12)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Factories 59.62 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Action "category/index" 260.31 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 305.05 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.86 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.82 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 0.75 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 30.72 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 14.70 ms (5)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list" 167.80 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 4.08 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_pagination" 1.98 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 19.47 ms (20)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 47.92 ms (20)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 42.07 ms (20)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 1.40 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 1.01 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 0.82 ms (1)
+Jul 04 17:42:50 symfony [info] {sfWebResponse} Send content (175512 o)
+Jul 04 17:43:15 symfony [info] {sfPatternRouting} Match route "category_edit" (/category/:id/edit.:sf_format) for /category/1/edit with parameters array (  'module' => 'category',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jul 04 17:43:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:43:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:43:15 symfony [info] {categoryActions} Call "categoryActions->executeEdit()"
+Jul 04 17:43:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:43:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c WHERE (c.id = ?) - (1)
+Jul 04 17:43:15 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/editSuccess.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:43:15 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:43:15 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:43:15 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:43:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:43:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Configuration 17.40 ms (11)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Factories 50.29 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Action "category/edit" 123.55 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} View "Success" for "category/edit" 46.67 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.83 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.81 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 0.82 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_form" 19.62 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 11.47 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 7.33 ms (4)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 2.19 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 0.93 ms (1)
+Jul 04 17:43:15 symfony [info] {sfWebResponse} Send content (66760 o)
+Jul 04 17:43:33 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:43:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:43:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:43:33 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:43:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:43:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:43:33 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_pagination.php"
+Jul 04 17:43:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:43:33 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:43:33 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:43:33 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:43:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:43:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Configuration 9.55 ms (11)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Factories 45.45 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Action "category/index" 53.59 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 193.87 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.82 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 1.02 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 0.76 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 17.52 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 9.97 ms (5)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list" 145.21 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 4.07 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_pagination" 1.98 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 19.48 ms (20)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 39.73 ms (20)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 43.42 ms (20)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 1.42 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 1.05 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 0.80 ms (1)
+Jul 04 17:43:33 symfony [info] {sfWebResponse} Send content (175556 o)
+Jul 04 17:43:49 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:43:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:43:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:43:49 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:43:49 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:43:49 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:43:49 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:43:49 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:43:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:43:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Configuration 9.84 ms (11)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Factories 50.52 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Action "category/new" 33.35 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 40.99 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.90 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.98 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 1.14 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_form" 17.01 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 10.66 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 7.08 ms (4)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 1.44 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 0.92 ms (1)
+Jul 04 17:43:49 symfony [info] {sfWebResponse} Send content (62844 o)
+Jul 04 17:44:05 symfony [info] {sfPatternRouting} Match route "category_create" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'create',  'sf_format' => 'html',)
+Jul 04 17:44:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:44:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:44:05 symfony [info] {categoryActions} Call "categoryActions->executeCreate()"
+Jul 04 17:44:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:44:05 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO category (name, level) VALUES (?, ?) - (test, 5)
+Jul 04 17:44:05 symfony [info] {sfFrontWebController} Redirect to "http://localhost/test1/web/backend_dev.php/category/new"
+Jul 04 17:44:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jul 04 17:44:05 symfony [info] {sfWebResponse} Send header "Location: http://localhost/test1/web/backend_dev.php/category/new"
+Jul 04 17:44:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Configuration 28.72 ms (10)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Factories 56.04 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Action "category/create" 93.57 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 04 17:44:05 symfony [info] {sfWebResponse} Send content (126 o)
+Jul 04 17:44:05 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:44:05 symfony [info] {myUser} Flag old flash messages ("notice")
+Jul 04 17:44:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:44:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:44:05 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:44:05 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:44:05 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:44:05 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:44:05 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:44:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:44:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Configuration 36.10 ms (11)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Factories 55.84 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Action "category/new" 40.14 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 77.76 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 2.25 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 2.08 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 2.04 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_form" 29.00 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 18.14 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 12.29 ms (4)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 2.75 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 2.06 ms (1)
+Jul 04 17:44:05 symfony [info] {sfWebResponse} Send content (63687 o)
+Jul 04 17:44:05 symfony [info] {myUser} Remove old flash messages ("notice")
+Jul 04 17:45:12 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:45:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:45:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:45:12 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:45:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:45:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:45:12 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:45:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_pagination.php"
+Jul 04 17:45:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:45:12 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:45:12 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:12 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:45:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Configuration 21.53 ms (11)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Factories 56.41 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Action "category/index" 62.08 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 249.03 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 1.51 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 1.49 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 1.47 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 21.65 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 13.03 ms (5)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list" 183.35 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 4.63 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_pagination" 2.67 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 31.33 ms (20)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 50.94 ms (20)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 56.70 ms (20)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 2.10 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 1.60 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 1.34 ms (1)
+Jul 04 17:45:12 symfony [info] {sfWebResponse} Send content (175790 o)
+Jul 04 17:45:24 symfony [info] {sfPatternRouting} Match route "category_edit" (/category/:id/edit.:sf_format) for /category/1/edit with parameters array (  'module' => 'category',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jul 04 17:45:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:45:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:45:24 symfony [info] {categoryActions} Call "categoryActions->executeEdit()"
+Jul 04 17:45:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:45:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c WHERE (c.id = ?) - (1)
+Jul 04 17:45:24 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/editSuccess.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:45:24 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:45:24 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:24 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:45:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Configuration 16.53 ms (11)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Factories 49.46 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Action "category/edit" 74.60 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} View "Success" for "category/edit" 45.78 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.82 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.80 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 0.91 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_form" 19.55 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 11.78 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 7.75 ms (4)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 2.19 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 0.85 ms (1)
+Jul 04 17:45:24 symfony [info] {sfWebResponse} Send content (66907 o)
+Jul 04 17:45:35 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:45:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:45:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:45:35 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:45:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:45:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:45:35 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:45:35 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_pagination.php"
+Jul 04 17:45:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:45:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:45:35 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:35 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:45:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Configuration 9.88 ms (11)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Factories 47.33 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Action "category/index" 54.92 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 198.94 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.83 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.80 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 0.81 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 17.45 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 9.84 ms (5)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list" 151.61 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 4.45 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_pagination" 2.16 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 20.16 ms (20)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 41.75 ms (20)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 45.01 ms (20)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 1.43 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 1.02 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 0.76 ms (1)
+Jul 04 17:45:35 symfony [info] {sfWebResponse} Send content (175788 o)
+Jul 04 17:45:52 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:45:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:45:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:45:52 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:45:52 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:45:52 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:45:52 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:52 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:45:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:45:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Configuration 18.41 ms (11)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Factories 52.14 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Action "category/new" 40.69 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 59.80 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 1.57 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 1.38 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 1.42 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_form" 24.45 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 15.21 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 10.14 ms (4)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 2.31 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 1.44 ms (1)
+Jul 04 17:45:52 symfony [info] {sfWebResponse} Send content (62994 o)
+Jul 04 17:46:02 symfony [info] {sfPatternRouting} Match route "category_create" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'create',  'sf_format' => 'html',)
+Jul 04 17:46:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:46:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:46:02 symfony [info] {categoryActions} Call "categoryActions->executeCreate()"
+Jul 04 17:46:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:46:03 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO category (name, lft, rgt, level) VALUES (?, ?, ?, ?) - (test2, 1, 1, 0)
+Jul 04 17:46:03 symfony [info] {sfFrontWebController} Redirect to "http://localhost/test1/web/backend_dev.php/category/new"
+Jul 04 17:46:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jul 04 17:46:03 symfony [info] {sfWebResponse} Send header "Location: http://localhost/test1/web/backend_dev.php/category/new"
+Jul 04 17:46:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Configuration 14.78 ms (10)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Factories 53.69 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Action "category/create" 64.45 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 04 17:46:03 symfony [info] {sfWebResponse} Send content (126 o)
+Jul 04 17:46:03 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:46:03 symfony [info] {myUser} Flag old flash messages ("notice")
+Jul 04 17:46:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:46:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:46:03 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:46:03 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:46:03 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:46:03 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:46:03 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:46:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:46:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Configuration 10.38 ms (11)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Factories 46.42 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Action "category/new" 33.35 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 44.93 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.84 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.86 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 1.08 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_form" 17.86 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 11.04 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 7.15 ms (4)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 1.29 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 0.81 ms (1)
+Jul 04 17:46:03 symfony [info] {sfWebResponse} Send content (63725 o)
+Jul 04 17:46:03 symfony [info] {myUser} Remove old flash messages ("notice")
+Jul 04 17:49:50 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:49:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:49:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:49:50 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:49:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:49:51 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:49:51 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:49:51 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:49:51 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:49:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:49:51 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:49:51 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:49:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:49:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Configuration 16.55 ms (11)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Factories 50.16 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Action "category/index" 61.16 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 85.68 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.84 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.80 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 0.82 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 17.58 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 9.79 ms (5)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list" 36.48 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 4.09 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 2.84 ms (3)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 7.64 ms (3)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 6.19 ms (3)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 1.34 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 1.01 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 0.84 ms (1)
+Jul 04 17:49:51 symfony [info] {sfWebResponse} Send content (88895 o)
+Jul 04 17:50:51 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:50:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:50:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:50:51 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:50:51 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:50:51 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:50:51 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:50:51 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:50:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:50:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Configuration 13.43 ms (11)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Factories 45.54 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Action "category/new" 34.33 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 42.60 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.81 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.79 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 1.41 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_form" 18.35 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 11.24 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 7.28 ms (4)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 1.32 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 0.84 ms (1)
+Jul 04 17:50:51 symfony [info] {sfWebResponse} Send content (62993 o)
+Jul 04 17:50:53 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:50:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:50:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:50:53 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:50:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:50:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:50:53 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:50:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:50:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:50:53 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:50:53 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:50:53 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:50:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:50:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Configuration 9.45 ms (11)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Factories 46.69 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Action "category/index" 61.16 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 79.34 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.84 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.89 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 0.75 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 16.80 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 9.54 ms (5)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list" 35.44 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 4.11 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 2.82 ms (3)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 7.75 ms (3)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 6.54 ms (3)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 1.43 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 1.00 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 0.74 ms (1)
+Jul 04 17:50:53 symfony [info] {sfWebResponse} Send content (88978 o)
+Jul 04 17:51:30 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:51:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:51:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:51:30 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:51:30 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:51:30 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:51:30 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:30 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:51:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Configuration 28.25 ms (11)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Factories 59.16 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Action "category/new" 40.37 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 73.39 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 2.26 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 2.04 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 2.10 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_form" 28.78 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 17.88 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 12.14 ms (4)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 2.75 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 2.16 ms (1)
+Jul 04 17:51:30 symfony [info] {sfWebResponse} Send content (62994 o)
+Jul 04 17:51:34 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:51:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:51:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:51:34 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:51:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:51:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:51:34 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:51:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:51:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:51:34 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:51:35 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:51:35 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:35 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:51:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Configuration 28.82 ms (11)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Factories 63.91 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Action "category/index" 71.45 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 133.70 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 2.09 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 2.03 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 1.93 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 26.38 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 16.43 ms (5)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list" 54.36 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 5.37 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 6.72 ms (3)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 11.60 ms (3)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 10.66 ms (3)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 2.58 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 2.25 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 1.99 ms (1)
+Jul 04 17:51:35 symfony [info] {sfWebResponse} Send content (88983 o)
+Jul 04 17:51:43 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:51:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:51:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:51:43 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:51:43 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:51:43 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:51:43 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:43 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:51:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Configuration 16.49 ms (11)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Factories 50.11 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Action "category/new" 37.45 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 44.56 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 0.83 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 0.87 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 0.82 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_form" 17.78 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 11.00 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 7.07 ms (4)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 1.31 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 0.82 ms (1)
+Jul 04 17:51:43 symfony [info] {sfWebResponse} Send content (62993 o)
+Jul 04 17:51:58 symfony [info] {sfPatternRouting} Match route "category_create" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'create',  'sf_format' => 'html',)
+Jul 04 17:51:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:51:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:51:58 symfony [info] {categoryActions} Call "categoryActions->executeCreate()"
+Jul 04 17:51:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:51:58 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO category (name, lft, rgt, level) VALUES (?, ?, ?, ?) - (ddd, 6, 7, 1)
+Jul 04 17:51:58 symfony [info] {sfFrontWebController} Redirect to "http://localhost/test1/web/backend_dev.php/category/new"
+Jul 04 17:51:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jul 04 17:51:58 symfony [info] {sfWebResponse} Send header "Location: http://localhost/test1/web/backend_dev.php/category/new"
+Jul 04 17:51:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Configuration 20.56 ms (10)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Factories 62.89 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Action "category/create" 81.40 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 04 17:51:58 symfony [info] {sfWebResponse} Send content (126 o)
+Jul 04 17:51:58 symfony [info] {sfPatternRouting} Match route "category_new" (/category/new.:sf_format) for /category/new with parameters array (  'module' => 'category',  'action' => 'new',  'sf_format' => 'html',)
+Jul 04 17:51:58 symfony [info] {myUser} Flag old flash messages ("notice")
+Jul 04 17:51:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:51:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:51:58 symfony [info] {categoryActions} Call "categoryActions->executeNew()"
+Jul 04 17:51:58 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/newSuccess.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_header.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_fieldset.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_field.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_actions.php"
+Jul 04 17:51:58 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_form_footer.php"
+Jul 04 17:51:58 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:58 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:51:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:51:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Configuration 18.93 ms (11)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Factories 54.38 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Action "category/new" 40.63 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} View "Success" for "category/new" 61.55 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 1.51 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 1.85 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_form_header" 1.58 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_form" 23.82 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_form_fieldset" 14.85 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_form_field" 9.95 ms (4)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_form_actions" 2.15 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebDebugLogger} Partial "category/_form_footer" 1.74 ms (1)
+Jul 04 17:51:58 symfony [info] {sfWebResponse} Send content (63725 o)
+Jul 04 17:51:58 symfony [info] {myUser} Remove old flash messages ("notice")
+Jul 04 17:52:00 symfony [info] {sfPatternRouting} Match route "category" (/category.:sf_format) for /category with parameters array (  'module' => 'category',  'action' => 'index',  'sf_format' => 'html',)
+Jul 04 17:52:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 17:52:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 17:52:00 symfony [info] {categoryActions} Call "categoryActions->executeIndex()"
+Jul 04 17:52:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 04 17:52:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM category c - ()
+Jul 04 17:52:00 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/indexSuccess.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_assets.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_flashes.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_header.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_filters_field.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_th_tabular.php"
+Jul 04 17:52:00 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Set slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {main} Get slot "sf_admin.current_header"
+Jul 04 17:52:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.root_id AS c__root_id, c.lft AS c__lft, c.rgt AS c__rgt, c.level AS c__level FROM category c LIMIT 20 - ()
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_batch_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_tabular.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_td_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_batch_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_actions.php"
+Jul 04 17:52:00 symfony [info] {sfPartialView} Render "D:\xampp\htdocs\test1\cache\backend\dev\modules/autoCategory/templates/_list_footer.php"
+Jul 04 17:52:00 symfony [info] {sfPHPView} Decorate content with "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:52:00 symfony [info] {sfPHPView} Render "D:\xampp\htdocs\test1\apps\backend\templates/layout.php"
+Jul 04 17:52:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 17:52:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Configuration 19.21 ms (11)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Factories 55.90 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Action "category/index" 66.93 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} View "Success" for "category/index" 121.55 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_assets" 1.50 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_flashes" 1.47 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_header" 1.52 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_filters" 22.27 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_filters_field" 13.37 ms (5)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list" 56.10 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_th_tabular" 5.03 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_batch_actions" 7.54 ms (4)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_tabular" 12.85 ms (4)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_td_actions" 11.66 ms (4)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_actions" 2.09 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 1.57 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 1.30 ms (1)
+Jul 04 17:52:00 symfony [info] {sfWebResponse} Send content (93945 o)
